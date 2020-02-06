@@ -40,7 +40,7 @@ KERNEL=`uname -r | cut -d'.' -f1,2`
 LOG="/var/log/$(echo $0 | cut -d'/' -f2)"
 #
 # Variável do download do Webmin - (Link de download atualizado em: 20/01/2019)
-WEBMIN="http://prdownloads.sourceforge.net/webadmin/webmin_1.930_all.deb"
+WEBMIN="http://prdownloads.sourceforge.net/webadmin/webmin_1.941_all.deb"
 #
 # Verificando se o usuário e Root, Distribuição e >=18.04 e o Kernel >=4.15 <IF MELHORADO)
 # [ ] = teste de expressão, && = operador lógico AND, == comparação de string, exit 1 = A maioria dos erros comuns na execução
